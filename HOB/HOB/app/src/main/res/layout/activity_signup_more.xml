@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".signupmore"
+    android:background="@drawable/backgroundblackimages">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_marginTop="90dp"
+        android:text="SET DETAILS"
+        android:textColor="@color/cardview_light_background"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Address"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/transparent"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="City"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="16sp"/>
+
+        <EditText
+            android:id="@+id/city"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="1px"
+            android:background="@color/colorPrimary" />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="Age"
+            android:padding="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="16sp"/>
+
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@color/orange"
+            android:textSize="16sp" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="DOB"
+            android:inputType="textCapWords"
+            android:padding="10dp"
+            android:textColor="@color/cardview_light_background"
+            android:textSize="16sp"/>
+
+
+        <EditText
+            android:id="@+id/dob"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/transparent"
+            android:drawablePadding="8dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/orange"
+            android:padding="10dp"
+            android:textSize="16sp" />
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/colorPrimary" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/profiledetailbutton"
+        android:layout_width="178dp"
+        android:layout_height="56dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:background="@color/blue"
+        android:padding="3dp"
+        android:text="SET"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

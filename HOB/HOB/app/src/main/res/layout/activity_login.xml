@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login"
+    android:background="@drawable/backgroundblackimages"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="30dp"
+                android:background="@drawable/app_logo_round"
+                android:scaleType="fitXY" />
+
+
+            <TextView
+                android:id="@+id/textView_user"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text=" USERNAME"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/login_username"
+                android:layout_width="326dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:backgroundTint="@color/orange"
+                android:ems="10"
+                android:hint="USERNAME OR E-MAIL"
+                android:textColor="@color/colorAccent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/textView_pwd"
+                android:layout_width="329dp"
+                android:layout_height="wrap_content"
+                android:text=" PASSWORD"
+                android:textColor="@color/cardview_light_background"
+                android:textSize="20dp" />
+
+
+            <EditText
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/login_password"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/orange"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="PASSWORD"
+                android:textColor="@color/colorAccent" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="100dp"
+                android:layout_height="41dp"
+                android:layout_margin="25dp"
+                android:background="@color/blue"
+                android:text="LOGIN"
+                tools:visibility="visible" />
+
+            <Button
+                android:id="@+id/sign_up_button"
+                android:layout_width="100dp"
+                android:layout_height="41dp"
+                android:layout_margin="25dp"
+                android:background="@color/blue"
+                android:text="SIGN UP"
+                tools:visibility="visible" />
+
+        </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
